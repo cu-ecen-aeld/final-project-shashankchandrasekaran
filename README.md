@@ -2,8 +2,8 @@
 final-project-shashankchandrasekaran created by GitHub Classroom
 
 
-##Project Overview##
+## Project Overview ##
 The project overview can be found [here](https://github.com/shashankchandrasekaran/final-project-assignment-shashankchandrasekaran/wiki/Project-Overview)
 
-##Project Schedule##
+## Project Schedule ##
 The project overview can be found [here](https://github.com/users/shashankchandrasekaran/projects/2)
