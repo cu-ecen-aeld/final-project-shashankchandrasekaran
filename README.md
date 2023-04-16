@@ -1,4 +1,4 @@
-# # final-project-shashankchandrasekaran
+# final-project-shashankchandrasekaran
 final-project-shashankchandrasekaran created by GitHub Classroom
 
 ## PiSecure - A Smart Home Security System ##
