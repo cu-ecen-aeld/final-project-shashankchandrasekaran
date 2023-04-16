@@ -1,29 +1,10 @@
-# buildroot-rpi
+# # final-project-shashankchandrasekaran
+final-project-shashankchandrasekaran created by GitHub Classroom
 
-This repository contains assignment starter code for buildroot based assignments for the course Advanced Embedded Software Design, ECEN 5713
+## PiSecure - A Smart Home Security System ##
 
-We will be using rpi3
+## Project Overview ##
+The project overview can be found [here](https://github.com/shashankchandrasekaran/final-project-assignment-shashankchandrasekaran/wiki/Project-Overview)
 
-Configuration of rpi  for Buildroot:
-----------------------------
-Other configuration of rpi:
-----------------------------
-For models A, B, A+ or B+:
-
-  $ make raspberrypi_defconfig
-
-For model Zero (model A+ in smaller form factor):
-
-  $ make raspberrypi0_defconfig
-
-For model 2 B:
-
-  $ make raspberrypi2_defconfig
-
-For model 3 B and B+:
-
-  $ make raspberrypi3_defconfig
-
-For model 4 B:
-
-  $ make raspberrypi4_defconfig
+## Project Schedule ##
+The project overview can be found [here](https://github.com/users/shashankchandrasekaran/projects/2)
