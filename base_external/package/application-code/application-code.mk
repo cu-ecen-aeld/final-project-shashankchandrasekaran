@@ -15,7 +15,7 @@ endef
 define APPLICATION_CODE_INSTALL_TARGET_CMDS
 	$(INSTALL) -m 0755 $(@D)/client/client $(TARGET_DIR)/usr/bin/
 	$(INSTALL) -m 0755 $(@D)/server/server $(TARGET_DIR)/usr/bin/
-	# Uncomment the below line when building the server image to run the server on startup 
+	#Uncomment the below line when building the server image to run the server on startup 
 	#$(INSTALL) -m 0755 $(@D)/'init'/S90server.sh $(TARGET_DIR)/etc/init.d/S90server.sh
 	#Uncomment the below line when building the client image to run the client on startup 
 	#$(INSTALL) -m 0755 $(@D)/init/S91client.sh $(TARGET_DIR)/etc/init.d/S91client.sh
