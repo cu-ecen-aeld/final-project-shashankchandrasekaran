@@ -1,3 +1,7 @@
+#Created by: Harsh Beriwal
+#Date: 24-Apr-2023
+#References:https://github.com/cu-ecen-aeld/final-project-tanmay-mk/blob/main/face-rec-sample/face_recog.py
+
 ##########################Importing libraries required for the program #############################
 import face_recognition
 import cv2
@@ -29,16 +33,16 @@ unknown_face_encodings = face_recognition.face_encodings(unknown_image)
 try:
     results = face_recognition.compare_faces([harsh_face_encoding,shashank_face_encoding], unknown_face_encodings[0], tolerance =0.5)
 except:
-    print("No Match found")
+    print("\nNo Match found")
     sys.exit(0)
 # Print the results
 if results[0]:
-    print("Welcome home Harsh Beriwal")
+    print("\nWelcome home Harsh Beriwal")
     sys.exit(1)
 elif results[1]:
-    print("Welcome home Shashank Chandrasekaran")
+    print("\nWelcome home Shashank Chandrasekaran")
     sys.exit(1)
 else:
-    print("No match found")
+    print("\nNo match found")
     sys.exit(0)
 
